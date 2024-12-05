@@ -1,0 +1,46 @@
+:root {
+  /* colors */
+  --clr-cyan: hsl(177 68% 64%);
+  --clr-orange: hsl(12 94% 65);
+  --clr-yelllow: hsl(33 100% 70%);
+
+  --clr-white: hsl(23 33% 98%);
+  --clr-black: hsl(244 23% 12%);
+
+  /* typography */
+
+  --ff-ibm-plex: "IBM Plex Sans";
+
+  /* font-weights */
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  /* font sizes */
+  --fs-xs: 1rem;
+  --fs-sm: 1.125rem;
+  --fs-md: 1.25rem;
+  --fs-lg: 2.5rem;
+  --fs-xl: 4rem;
+  --fs-xxl: 5.5rem;
+
+  /* line heights */
+  --lh-sm: 1;
+  --lh-md: 1.5;
+  --lh-lg: 1.8;
+
+  /* spacing */
+
+  --space-8: 8px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-56: 56px;
+  --space-64: 64px;
+  --space-80: 80px;
+  --space-128: 128px;
+  --space-200: 200px;
+}
