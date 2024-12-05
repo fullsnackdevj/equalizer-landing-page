@@ -1,3 +1,5 @@
+@import url(./font.css);
+
 :root {
   /* colors */
   --clr-cyan: hsl(177 68% 64%);
@@ -30,17 +32,21 @@
 
   /* spacing */
 
-  --space-8: 8px;
-  --space-16: 16px;
-  --space-24: 24px;
-  --space-20: 20px;
-  --space-24: 24px;
-  --space-32: 32px;
-  --space-40: 40px;
-  --space-48: 48px;
-  --space-56: 56px;
-  --space-64: 64px;
-  --space-80: 80px;
-  --space-128: 128px;
-  --space-200: 200px;
+  --space-8: 0.5rem;
+  --space-16: 1rem;
+  --space-24: 1.5rem;
+  --space-20: 1.25rem;
+  --space-24: 1.5rem;
+  --space-32: 2rem;
+  --space-40: 2.5rem;
+  --space-48: 3rem;
+  --space-56: 3.5rem;
+  --space-64: 4rem;
+  --space-80: 5rem;
+  --space-128: 8rem;
+  --space-200: 12.5rem;
+}
+
+body {
+  font-family: var(--ff-ibm-plex);
 }
