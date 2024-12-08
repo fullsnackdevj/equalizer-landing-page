@@ -1,0 +1,26 @@
+@media (max-width: 375px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    padding-top: var(--space-64);
+    padding-bottom: var(--space-80);
+    gap: var(--space-32);
+
+    max-width: 335px;
+  }
+
+  .footer .copyright a {
+    font-weight: var(--fw-bold);
+    text-decoration: unset;
+    color: inherit;
+  }
+
+  .footer .social-media {
+    display: flex;
+    gap: var(--space-32);
+    font-size: var(--fs-xs);
+    line-height: var(--lh-md);
+  }
+}

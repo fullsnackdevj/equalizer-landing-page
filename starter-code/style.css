@@ -1,52 +1,12 @@
 @import url(./font.css);
-
-:root {
-  /* colors */
-  --clr-cyan: hsl(177 68% 64%);
-  --clr-orange: hsl(12 94% 65);
-  --clr-yelllow: hsl(33 100% 70%);
-
-  --clr-white: hsl(23 33% 98%);
-  --clr-black: hsl(244 23% 12%);
-
-  /* typography */
-
-  --ff-ibm-plex: "IBM Plex Sans";
-
-  /* font-weights */
-  --fw-regular: 400;
-  --fw-bold: 700;
-
-  /* font sizes */
-  --fs-xs: 1rem;
-  --fs-sm: 1.125rem;
-  --fs-md: 1.25rem;
-  --fs-lg: 2.5rem;
-  --fs-xl: 4rem;
-  --fs-xxl: 5.5rem;
-
-  /* line heights */
-  --lh-sm: 1;
-  --lh-md: 1.5;
-  --lh-lg: 1.8;
-
-  /* spacing */
-
-  --space-8: 0.5rem;
-  --space-16: 1rem;
-  --space-24: 1.5rem;
-  --space-20: 1.25rem;
-  --space-24: 1.5rem;
-  --space-32: 2rem;
-  --space-40: 2.5rem;
-  --space-48: 3rem;
-  --space-56: 3.5rem;
-  --space-64: 4rem;
-  --space-80: 5rem;
-  --space-128: 8rem;
-  --space-200: 12.5rem;
-}
+@import url(./css-reset.css);
+@import url(./custom-variables.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
 
 body {
+  position: relative;
   font-family: var(--ff-ibm-plex);
+  color: var(--clr-black);
 }
